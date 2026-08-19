@@ -1,21 +1,75 @@
-E-Commerce Sales Performance & Customer Analytics Dashboard
+# E-Commerce Sales Performance & Customer Analytics
 
-Business Overview:-
-"This project transforms raw e-commerce transactional data into a high-level corporate analytical tool. Moving away from basic "tutorial-style" visuals, this dashboard focuses on Business Intelligence (BI), providing actionable insights into revenue growth, product performance, and customer demographics."
+An interactive Power BI dashboard built to analyze e-commerce sales performance across products, categories, locations, and time periods.
 
-Key Features:-
-1.KPI tracking: Total Revenue, Total Orders, AOV, Cancellation Rate.
-2.Category-wise and State-wise sales analysis.
-3.Top 10 product performance visualization.
-4.Time-based revenue trend analysis.
-5.Interactive slicers for dynamic filtering.
+The project focuses on turning transactional data into clear business insights through KPI tracking, sales analysis, and interactive visualizations.
 
-Technical Stack:-
-Tool: Power BI Desktop
-DAX (Data Analysis Expressions)
-Data Source: CSV files covering Customers, Orders, and Product catalogs.
+## Dashboard Overview
 
-Key Insights from Data:-
-Category Leader: Laptops contribute significantly (approx. 32%) to total revenue.
-Geographic Hotspot: Maharashtra identified as the highest-grossing state.
-Growth Trends: Identified an 18% revenue drop in Q4, signaling a need for seasonal marketing adjustments.
+The dashboard provides an interactive view of overall sales performance and allows users to explore the data using dynamic filters and slicers.
+
+![Dashboard Screenshot](dashboard_screenshot.png)
+
+## Key KPIs
+
+The dashboard tracks:
+
+- Total Revenue
+- Total Orders
+- Average Order Value (AOV)
+- Cancellation Rate
+
+## Analysis Covered
+
+### Sales Performance
+- Revenue trends over time
+- Category-wise sales performance
+- State-wise sales performance
+- Top 10 products by performance
+
+### Customer & Product Analysis
+- Product-level performance
+- Category contribution to revenue
+- Geographic distribution of sales
+
+### Interactive Analysis
+Interactive slicers allow users to dynamically filter the dashboard and explore different segments of the data.
+
+## Key Insights
+
+### 1. Product Performance
+Laptops contribute approximately **32% of total revenue**, making them a major contributor to overall sales.
+
+### 2. Geographic Performance
+**Maharashtra** was identified as the highest-grossing state in the dataset.
+
+### 3. Revenue Trend
+Revenue declined by approximately **18% in Q4**, highlighting a potential seasonal trend that may require further investigation and targeted marketing strategies.
+
+## Data
+
+The analysis uses three CSV datasets:
+
+- `Customers.csv` — Customer information
+- `Orders.csv` — Transactional order data
+- `Products.csv` — Product information
+
+The datasets are combined and modeled in Power BI to support the dashboard analysis.
+
+## Tools & Technologies
+
+- **Power BI Desktop** — Dashboard development and data visualization
+- **DAX** — Measures and analytical calculations
+- **CSV** — Source data
+
+## Repository Structure
+
+```text
+E-Commerce-Sales-Performance-Analytics/
+│
+├── Customers.csv
+├── Orders.csv
+├── Products.csv
+├── dashboard_screenshot.png
+├── ecom_project.pbix
+└── README.md
