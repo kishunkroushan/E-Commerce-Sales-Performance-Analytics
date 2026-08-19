@@ -8,7 +8,7 @@ The project focuses on turning transactional data into clear business insights t
 
 The dashboard provides an interactive view of overall sales performance and allows users to explore the data using dynamic filters and slicers.
 
-![Dashboard Screenshot](dashboard_screenshot.png)
+![Dashboard Screenshot](screenshots/dashboard_screenshot.png)
 
 ## Key KPIs
 
