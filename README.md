@@ -67,9 +67,15 @@ The datasets are combined and modeled in Power BI to support the dashboard analy
 ```text
 E-Commerce-Sales-Performance-Analytics/
 │
-├── Customers.csv
-├── Orders.csv
-├── Products.csv
-├── dashboard_screenshot.png
-├── ecom_project.pbix
+├── data/
+│   ├── Customers.csv
+│   ├── Orders.csv
+│   └── Products.csv
+│
+├── dashboard/
+│   └── ecom_project.pbix
+│
+├── screenshots/
+│   └── dashboard_screenshot.png
+│
 └── README.md
